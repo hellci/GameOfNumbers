@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * 
+ * class GameOfNumbers
+ * description: askdjfaksdfj
+ * 
+ * history: 
+ *  - created: 29, Mar 2019
+ *  - reviewed: 29, Mar 2019
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +32,7 @@ namespace GameOfNumbers
             }
             else
             {
+                // review no.1: bla bla
                 if (inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
                 {
                     return "Warmer!!!";

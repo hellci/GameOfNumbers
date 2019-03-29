@@ -99,6 +99,7 @@ namespace GameOfNumbers
                 lblResult.Visible = false;
             }
         }
+
         /// <summary>
         /// Reset form controls and values to the default
         /// </summary>
@@ -108,6 +109,8 @@ namespace GameOfNumbers
             tbDifficulty.Enabled = true;
             groupBox1.Enabled = false;
             groupBox1.Text = "Click start to begin";
+            _numberOfTries = 0;
+            pbTrials.Value = 0;
         }
     }
 }
