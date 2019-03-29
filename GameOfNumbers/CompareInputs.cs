@@ -1,11 +1,11 @@
 ﻿/**
  * 
  * class GameOfNumbers
- * description: askdjfaksdfj
+ * description: this class compares two different numbers.
  * 
  * history: 
- *  - created: 29, Mar 2019
- *  - reviewed: 29, Mar 2019
+ *  - created: 27 Mar 2019
+ *  - reviewed: 29 Mar 2019
  */
 using System;
 using System.Collections.Generic;
@@ -32,7 +32,10 @@ namespace GameOfNumbers
             }
             else
             {
-                // review no.1: bla bla
+                /** 
+                 * review: more disnict keyword needed for return value.
+                 *  ex> Almost, May be, Too far
+                 */
                 if (inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
                 {
                     return "Warmer!!!";
