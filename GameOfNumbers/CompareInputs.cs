@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**
+ * 
+ * class GameOfNumbers
+ * description: this class compares two different numbers.
+ * 
+ * history: 
+ *  - created: 27 Mar 2019
+ *  - reviewed: 29 Mar 2019
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +32,11 @@ namespace GameOfNumbers
             }
             else
             {
-               if(inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
+                /** 
+                 * review: more disnict keyword needed for return value.
+                 *  ex> Almost, May be, Too far
+                 */
+                if (inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
                 {
                     return "Warmer!!!";
                 }

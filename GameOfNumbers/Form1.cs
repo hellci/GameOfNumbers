@@ -1,4 +1,7 @@
-﻿using System;
+﻿/**
+ * review: explanation comment on the top of the class file is missing.
+ */
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
@@ -14,7 +17,10 @@ namespace GameOfNumbers
         {
             InitializeComponent();
         }
-
+        /*
+         *  review: The method names are not according to the agreed standards
+         *  underscore operator should not be used to decalre the method
+         */
         private void btnOk_Click(object sender, EventArgs e)
         {
             lblResult.Visible = true;
