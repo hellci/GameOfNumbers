@@ -50,12 +50,13 @@
             // tbDifficulty
             // 
             this.tbDifficulty.LargeChange = 1;
-            this.tbDifficulty.Location = new System.Drawing.Point(336, 23);
+            this.tbDifficulty.Location = new System.Drawing.Point(378, 29);
+            this.tbDifficulty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbDifficulty.Maximum = 3;
             this.tbDifficulty.Minimum = 1;
             this.tbDifficulty.Name = "tbDifficulty";
             this.tbDifficulty.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.tbDifficulty.Size = new System.Drawing.Size(56, 188);
+            this.tbDifficulty.Size = new System.Drawing.Size(69, 235);
             this.tbDifficulty.TabIndex = 0;
             this.tbDifficulty.Value = 1;
             this.tbDifficulty.Scroll += new System.EventHandler(this.tbDifficulty_Scroll);
@@ -63,70 +64,73 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(333, 214);
+            this.label1.Location = new System.Drawing.Point(375, 268);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 17);
+            this.label1.Size = new System.Drawing.Size(69, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Difficulty";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(371, 184);
+            this.label2.Location = new System.Drawing.Point(417, 230);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(45, 17);
+            this.label2.Size = new System.Drawing.Size(49, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "1 - 25";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(371, 107);
+            this.label3.Location = new System.Drawing.Point(417, 134);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 17);
+            this.label3.Size = new System.Drawing.Size(49, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "1 - 50";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(371, 32);
+            this.label4.Location = new System.Drawing.Point(417, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 17);
+            this.label4.Size = new System.Drawing.Size(58, 20);
             this.label4.TabIndex = 4;
             this.label4.Text = "1 - 100";
             // 
             // pbTrials
             // 
-            this.pbTrials.Location = new System.Drawing.Point(6, 208);
+            this.pbTrials.Location = new System.Drawing.Point(7, 260);
+            this.pbTrials.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pbTrials.Maximum = 5;
             this.pbTrials.Name = "pbTrials";
-            this.pbTrials.Size = new System.Drawing.Size(306, 23);
+            this.pbTrials.Size = new System.Drawing.Size(344, 29);
             this.pbTrials.Step = 1;
             this.pbTrials.TabIndex = 5;
             // 
             // cbInput
             // 
             this.cbInput.FormattingEnabled = true;
-            this.cbInput.Location = new System.Drawing.Point(28, 76);
+            this.cbInput.Location = new System.Drawing.Point(32, 95);
+            this.cbInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cbInput.Name = "cbInput";
-            this.cbInput.Size = new System.Drawing.Size(121, 24);
+            this.cbInput.Size = new System.Drawing.Size(136, 28);
             this.cbInput.TabIndex = 6;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 30);
+            this.label5.Location = new System.Drawing.Point(7, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(133, 17);
+            this.label5.Size = new System.Drawing.Size(148, 20);
             this.label5.TabIndex = 7;
             this.label5.Text = "What\'s your guess?";
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(166, 71);
+            this.btnOk.Location = new System.Drawing.Point(187, 89);
+            this.btnOk.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(47, 32);
+            this.btnOk.Size = new System.Drawing.Size(53, 40);
             this.btnOk.TabIndex = 8;
             this.btnOk.Text = "Ok!";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -136,27 +140,27 @@
             // 
             this.lblPrize.AutoSize = true;
             this.lblPrize.ForeColor = System.Drawing.Color.Green;
-            this.lblPrize.Location = new System.Drawing.Point(160, 23);
+            this.lblPrize.Location = new System.Drawing.Point(180, 29);
             this.lblPrize.Name = "lblPrize";
-            this.lblPrize.Size = new System.Drawing.Size(24, 17);
+            this.lblPrize.Size = new System.Drawing.Size(27, 20);
             this.lblPrize.TabIndex = 9;
             this.lblPrize.Text = "25";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(31, 23);
+            this.label6.Location = new System.Drawing.Point(35, 29);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(123, 17);
+            this.label6.Size = new System.Drawing.Size(135, 20);
             this.label6.TabIndex = 10;
             this.label6.Text = "You\'re playing for:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(190, 23);
+            this.label7.Location = new System.Drawing.Point(214, 29);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 17);
+            this.label7.Size = new System.Drawing.Size(18, 20);
             this.label7.TabIndex = 11;
             this.label7.Text = "$";
             // 
@@ -166,18 +170,21 @@
             this.groupBox1.Controls.Add(this.cbInput);
             this.groupBox1.Controls.Add(this.btnOk);
             this.groupBox1.Enabled = false;
-            this.groupBox1.Location = new System.Drawing.Point(6, 69);
+            this.groupBox1.Location = new System.Drawing.Point(7, 86);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(306, 120);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(344, 150);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Click start to begin";
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(2, 278);
+            this.btnStart.Location = new System.Drawing.Point(2, 348);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(427, 39);
+            this.btnStart.Size = new System.Drawing.Size(480, 49);
             this.btnStart.TabIndex = 13;
             this.btnStart.Text = "Start!";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -187,16 +194,16 @@
             // 
             this.lblResult.AutoSize = true;
             this.lblResult.ForeColor = System.Drawing.Color.Red;
-            this.lblResult.Location = new System.Drawing.Point(12, 246);
+            this.lblResult.Location = new System.Drawing.Point(14, 308);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 17);
+            this.lblResult.Size = new System.Drawing.Size(0, 20);
             this.lblResult.TabIndex = 14;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(432, 320);
+            this.ClientSize = new System.Drawing.Size(486, 400);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.groupBox1);
@@ -209,6 +216,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbDifficulty);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Game of Numbers!";

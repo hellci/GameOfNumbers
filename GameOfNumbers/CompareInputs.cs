@@ -23,7 +23,7 @@ namespace GameOfNumbers
             }
             else
             {
-               if(inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
+                if (inputedNumber==(actualNumber+1) || inputedNumber == (actualNumber - 1))
                 {
                     return "Warmer!!!";
                 }
